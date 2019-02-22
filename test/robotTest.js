@@ -152,7 +152,6 @@ describe("robot.js", () => {
       T1000.translateInstructions("L");
       expect(T1000.bearing).to.match(/west/i);
     });
-
     it("should handle 'R'", () => {
       T1000.translateInstructions("R");
       expect(T1000.bearing).to.match(/east/i);
